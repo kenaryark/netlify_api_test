@@ -5,7 +5,7 @@
   "main": "api.js",
   "scripts": {
     "start": "nodemon ./netlify/functions/api.js",
-    "build": "npm run build"
+    "build": "netlify-lambda build src/functions"
   },
   "keywords": [],
   "author": "",

@@ -4,6 +4,8 @@
   publish = "/dist/"
   [build.environment]
     NODE_VERSION = "18"
+
 [functions]
-  external_node_modules = ["express", "mongodb"]
+  directory = "src/functions"
   node_bundler = "esbuild"
+  external_node_modules = ["express", "mongoose", "cors", "dotenv"]
