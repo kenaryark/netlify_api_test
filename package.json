@@ -4,8 +4,8 @@
   "description": "",
   "main": "api.js",
   "scripts": {
-    "start": "./node_modules/.bin/netlify-lambda serve src",
-    "build": "./node_modules/.bin/netlify-lambda build src"
+    "start": "nodemon ./netlify/functions/api.js",
+    "build": "npm run build"
   },
   "keywords": [],
   "author": "",
