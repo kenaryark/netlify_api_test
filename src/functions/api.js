@@ -56,7 +56,7 @@ import mongoose from "mongoose";
 import cors from "cors";
 import dotenv from "dotenv";
 
-import usersRoute from "./routes/users.js";
+import usersRoute from "../routes/users.js";
 
 export async function handler(event, context) {
   const app = express();
